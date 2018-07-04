@@ -139,7 +139,7 @@ Replacing the NA's by the mean of steps taken doesn't affect the mean, only the 
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
-### Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
+### Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 
 To do this first a new column will be made with the function weekdays() and this outcome will be used to create a column indicating "weekday" or "weekend" by an ifelse function
 
